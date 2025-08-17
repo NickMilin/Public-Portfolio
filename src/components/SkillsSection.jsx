@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+const basePath = import.meta.env.BASE_URL;
+
+const basePath = import.meta.env.BASE_URL;
 
 const skills = [
   {
     name: "Python",
     category: "backend",
-    logo: "/logos/Python.svg",
+    logo: `${basePath}logos/Python.svg`,
     description: "Versatile programming",
   },
 
@@ -17,114 +20,127 @@ const skills = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
     description: "Object-oriented programming",
   },
+
   {
     name: "C",
     category: "backend",
-    logo: "/logos/C.svg",
+    logo: `${basePath}logos/C.svg`,
     description: "Low-level programming",
   },
+
   {
     name: "C++",
     category: "backend",
-    logo: "/logos/C++.svg",
+    logo: `${basePath}logos/C++.svg`,
     description: "Object-oriented systems",
   },
 
   {
     name: "HTML",
     category: "frontend",
-    logo: "/logos/HTML.svg",
+    logo: `${basePath}logos/HTML.svg`,
     description: "Markup for web content",
   },
+
   {
     name: "JavaScript",
     category: "frontend",
-    logo: "/logos/JavaScript.svg",
+    logo: `${basePath}logos/JavaScript.svg`,
     description: "Dynamic web development",
   },
 
   {
     name: "CSS",
     category: "frontend",
-    logo: "/logos/CSS.svg",
+    logo: `${basePath}logos/CSS.svg`,
     description: "Styling web pages",
   },
+
   {
     name: "React",
     category: "frontend",
-    logo: "/logos/React.svg",
+    logo: `${basePath}logos/React.svg`,
     description: "Component-based UI",
   },
+
   {
     name: "Tailwind CSS",
     category: "frontend",
-    logo: "/logos/Tailwind.svg",
+    logo: `${basePath}logos/Tailwind.svg`,
     description: "Utility-first CSS",
   },
+
   {
     name: "R",
     category: "backend",
-    logo: "/logos/R.svg",
+    logo: `${basePath}logos/R.svg`,
     description: "Statistical computing",
   },
+
   {
     name: "OCaml",
     category: "backend",
-    logo: "/logos/Ocaml.svg",
+    logo: `${basePath}logos/Ocaml.svg`,
     description: "Functional programming",
   },
+
   {
     name: "Selenium",
     category: "tools",
-    logo: "/logos/Selenium.svg",
+    logo: `${basePath}logos/Selenium.svg`,
     description: "Automated browser testing",
   },
+
   {
     name: "Bash",
     category: "tools",
-    logo: "/logos/Bash.svg",
+    logo: `${basePath}logos/Bash.svg`,
     description: "Command-line scripting",
   },
+
   {
     name: "Git",
     category: "tools",
-    logo: "/logos/Git.svg",
+    logo: `${basePath}logos/Git.svg`,
     description: "Version control",
   },
+
   {
     name: "GitHub",
     category: "tools",
-    logo: "/logos/Github.svg",
+    logo: `${basePath}logos/Github.svg`,
     description: "Code hosting & collaboration",
   },
+
   {
     name: "GitLab",
     category: "tools",
-    logo: "/logos/Gitlab.svg",
+    logo: `${basePath}logos/Gitlab.svg`,
     description: "DevOps platform",
   },
 
   {
     name: "IntelliJ",
     category: "tools",
-    logo: "/logos/IntelliJ.svg",
+    logo: `${basePath}logos/IntelliJ.svg`,
     description: "Java IDE",
   },
 
   {
     name: "PyCharm",
     category: "tools",
-    logo: "/logos/PyCharm.svg",
+    logo: `${basePath}logos/PyCharm.svg`,
     description: "Python IDE",
   },
 
   {
     name: "VS Code",
     category: "tools",
-    logo: "/logos/VS Code.svg",
+    logo: `${basePath}logos/VS Code.svg`,
     description: "Code editor",
   },
 ];
+
 
 const categories = ["all", "frontend", "backend", "tools"];
 

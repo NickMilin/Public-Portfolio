@@ -1,12 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
+const basePath = import.meta.env.BASE_URL;
+
+
 const projects = [
   {
     id: 1,
     title: "MyCourses Downloader",
     description:
       "Made in under 24 hours for McHacks 12. A utility for graduating students to take what they've learnt with them.",
-    image: "/projects/MyCoursesDownload3.png",
+    image: `${basePath}projects/MyCoursesDownload3.png`,
     tags: ["Python", "Selenium", "NiceGUI"],
     demoUrl: "https://devpost.com/software/mycourses-content-downloader",
     githubUrl: "https://github.com/NickMilin/MyCourses-Content-Downloader",
@@ -16,7 +19,7 @@ const projects = [
     title: "QuickNotes AI",
     description:
       "An AI program to help summarize lecture recording transcripts.",
-    image: "/projects/QuickNotesAI.png",
+    image: `${basePath}projects/QuickNotesAI.png`,
     tags: ["Java", "OpenAI", "JavaFX"],
     demoUrl: "https://devpost.com/software/quicknotes-ai",
     githubUrl: "https://github.com/NickMilin/QuickNotesAI",
