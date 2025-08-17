@@ -4,8 +4,6 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 const basePath = import.meta.env.BASE_URL;
 
-const basePath = import.meta.env.BASE_URL;
-
 const skills = [
   {
     name: "Python",
