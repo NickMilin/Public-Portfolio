@@ -1,2 +1,10 @@
-dist
-.gh-pages-cache
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# cache
+.vite/
+.cache/
+*.log

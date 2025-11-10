@@ -2,7 +2,7 @@ import { BookOpenText, CodeXml, GraduationCap } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative bg-secondary/50">
+    <section id="about" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About<span className="text-primary"> Me</span>
@@ -21,10 +21,9 @@ export const AboutSection = () => {
               personal projects.
             </p>
             <p className="text-muted-foreground">
-              Outside of coding, I like to stay active through weightlifing and
-              intramurla team sports. Aside from sports, I am passionate about
-              music and especially enjoying going to electronic dance concerts
-              and festivals.
+              Outside of coding, I enjoy staying active through working out, 
+              participating in intramural team sports, and am an avid alpine skier. 
+              Aside from sports, I am passionate about music and especially enjoy attending concerts and festivals.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

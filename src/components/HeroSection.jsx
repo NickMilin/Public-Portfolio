@@ -13,9 +13,9 @@ export const HeroSection = () => {
             <span className="text-primary text-glow opacity-0 animate-fade-in-delay-1"> Nicholas</span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Milin</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a 4th-year undergrauate Computer Science student at McGill University.
-            I have a passionate for software engineering and artificial intelligence.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I am a 4th-year undergraduate Computer Science student at McGill University. <br />
+            I have a passion for software engineering and artificial intelligence.
             {/* I am a prospective Master of Computer Science student and will be volunteering in Professor Vybihal's Prometheus Lab in Fall 2026. */}
             
           </p>

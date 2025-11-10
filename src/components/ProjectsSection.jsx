@@ -8,9 +8,9 @@ const projects = [
     id: 1,
     title: "MyCourses Downloader",
     description:
-      "Made in under 24 hours for McHacks 12. A utility for graduating students to take what they've learnt with them.",
+      "Developed in 24 hours, a utility for graduating students to take what they've learnt with them.",
     image: `${basePath}projects/MyCoursesDownload3.png`,
-    tags: ["Python", "Selenium", "NiceGUI"],
+    tags: ["McHacks 12","Python", "Selenium", "NiceGUI"],
     demoUrl: "https://devpost.com/software/mycourses-content-downloader",
     githubUrl: "https://github.com/NickMilin/MyCourses-Content-Downloader",
   },
@@ -18,9 +18,9 @@ const projects = [
     id: 2,
     title: "QuickNotes AI",
     description:
-      "An AI program to help summarize lecture recording transcripts.",
+      "Created over the course of a weekend. An AI program to help summarize lecture recording transcripts.",
     image: `${basePath}projects/QuickNotesAI.png`,
-    tags: ["Java", "OpenAI", "JavaFX"],
+    tags: ["McGill CodeJam 14","Java", "JavaFX", "OpenAI"],
     demoUrl: "https://devpost.com/software/quicknotes-ai",
     githubUrl: "https://github.com/NickMilin/QuickNotesAI",
   },
@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was created in a
+          Here are some of my recent personal projects. Each project was created in a
           coding competition over the course of a weekend.
         </p>
 
